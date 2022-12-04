@@ -3,7 +3,18 @@ float:left;
 
 
 }
-
+.box{
+    position: relative;
+    padding: 50px;
+    width: 360px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 0, 1);
+    border-radius: 6px;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 2);
+}
 
 .columncenter {
 
@@ -16,12 +27,6 @@ height: 100vh;
 
   
 }
-.tiledBackground{
-    background-image: url(logo.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: auto;
-}
 
 .row {
   padding: 10px;
@@ -31,3 +36,12 @@ height: 100vh;
   text-align: center;
 }
 
+nav {
+    margin: 27px auto 0;
+    position: relative;
+    width: 590px;
+    height: 50px;
+    background-color: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+}
