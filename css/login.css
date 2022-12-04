@@ -1,0 +1,16 @@
+
+.formclass {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(image\logo);
+}
+
+.row {
+  padding: 10px;
+}
+.row.submit {
+  text-align: center;
+}
+
